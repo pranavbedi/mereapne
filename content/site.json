@@ -1,0 +1,25 @@
+{
+  "orgName": "Mere Apne Small Fincare Nidhi Limited",
+  "domain": "mereapnenidhi.in",
+  "tagline": "Most reliable investment schemes and plans for high returns",
+  "reg": {
+    "act": "Ministry of Corporate Affairs, Govt. of India",
+    "regNo": "Incorporated 2021",
+    "date": "2021",
+    "compliance": "RBI Compliant Nidhi Company"
+  },
+  "contacts": {
+    "phone": ["+91-7844884646"],
+    "email": "mereapnenidhi@gmail.com",
+    "whatsapp": "+91-7844884646"
+  },
+  "hours": "Mon–Sat: 10:00–18:00 (Sun closed)",
+  "languages": ["en", "hi"],
+  "grievanceOfficer": {
+    "name": "Customer Care Team",
+    "email": "mereapnenidhi@gmail.com",
+    "phone": "+91-7844884646"
+  },
+  "companyType": "Nidhi Company",
+  "established": "2021"
+}

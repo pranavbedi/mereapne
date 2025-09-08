@@ -1,0 +1,81 @@
+{
+  "deposits": [
+    {
+      "slug": "savings",
+      "name": "Savings Account",
+      "teaser": "Interest-bearing deposit account with modest interest rate",
+      "features": [
+        "Passbook facility",
+        "ATM/Debit card access",
+        "Online banking",
+        "Nominal opening balance",
+        "Interest as per company policy"
+      ]
+    },
+    {
+      "slug": "fixed-deposit",
+      "name": "Fixed Deposit (FD)",
+      "teaser": "Lock-in savings for guaranteed returns",
+      "features": [
+        "Multiple tenures",
+        "Interest credited at maturity",
+        "Premature withdrawal as per slab"
+      ]
+    },
+    {
+      "slug": "recurring-deposit",
+      "name": "Recurring Deposit (RD)",
+      "teaser": "Save monthly, build corpus",
+      "features": [
+        "12 / 24 / 36 / 60 month options",
+        "No interest on RD pre-maturity (as per card)"
+      ]
+    },
+    {
+      "slug": "monthly-income-scheme",
+      "name": "Monthly Income Scheme (MIS)",
+      "teaser": "Traditional participating product providing deferred regular income",
+      "features": [
+        "Regular monthly income for many years",
+        "Traditional participating benefits",
+        "Deferred income options",
+        "Flexible payout schedules"
+      ]
+    }
+  ],
+  "loans": [
+    {
+      "slug": "gold",
+      "name": "Gold Loan",
+      "teaser": "Unlock the best value of your gold ornaments",
+      "features": [
+        "Quick processing",
+        "Competitive interest rates",
+        "Safe storage of gold",
+        "Flexible repayment options"
+      ]
+    },
+    {
+      "slug": "property",
+      "name": "Loan Against Property",
+      "teaser": "Get loan against your property for personal or business needs",
+      "features": [
+        "Low interest rates",
+        "High loan amount",
+        "Long repayment tenure",
+        "Minimal documentation"
+      ]
+    },
+    {
+      "slug": "deposit",
+      "name": "Loan Against Deposit",
+      "teaser": "Make your fixed deposits liquid",
+      "features": [
+        "Against FD, Insurance Policy, Government Bonds",
+        "Up to 90% of deposit value",
+        "No prepayment penalty",
+        "Instant approval"
+      ]
+    }
+  ]
+}

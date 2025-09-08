@@ -1,0 +1,120 @@
+{
+  "fd": {
+    "tenures": [
+      {
+        "months": 12,
+        "rate": "9%",
+        "rows": [
+          { "amount": 5000, "maturity": 5450 },
+          { "amount": 10000, "maturity": 10900 },
+          { "amount": 20000, "maturity": 21800 },
+          { "amount": 50000, "maturity": 54500 },
+          { "amount": 100000, "maturity": 109000 }
+        ]
+      },
+      {
+        "months": 24,
+        "rate": "10%",
+        "rows": [
+          { "amount": 5000, "maturity": 6050 },
+          { "amount": 10000, "maturity": 12100 },
+          { "amount": 20000, "maturity": 24200 },
+          { "amount": 50000, "maturity": 60500 },
+          { "amount": 100000, "maturity": 121000 }
+        ]
+      },
+      {
+        "months": 36,
+        "rate": "11%",
+        "rows": [
+          { "amount": 5000, "maturity": 6838 },
+          { "amount": 10000, "maturity": 13676 },
+          { "amount": 20000, "maturity": 27353 },
+          { "amount": 50000, "maturity": 68382 },
+          { "amount": 100000, "maturity": 136763 }
+        ]
+      },
+      {
+        "months": 48,
+        "rate": "12%",
+        "rows": [
+          { "amount": 5000, "maturity": 7868 },
+          { "amount": 10000, "maturity": 15735 },
+          { "amount": 20000, "maturity": 31470 },
+          { "amount": 50000, "maturity": 78676 },
+          { "amount": 100000, "maturity": 157352 }
+        ]
+      },
+      {
+        "months": 74,
+        "rate": "12%",
+        "note": "Double at maturity (per card)",
+        "rows": [
+          { "amount": 5000, "maturity": 10000 },
+          { "amount": 10000, "maturity": 20000 },
+          { "amount": 20000, "maturity": 40000 },
+          { "amount": 50000, "maturity": 100000 },
+          { "amount": 100000, "maturity": 200000 }
+        ]
+      }
+    ],
+    "prematurity": "Premature FD interest payable as per slab at time of closure."
+  },
+  "rd": {
+    "schemes": [
+      {
+        "months": 12,
+        "rate": "9%",
+        "rows": [
+          { "monthly": 500, "total": 6000, "interest": 293, "maturity": 6293 },
+          { "monthly": 1000, "total": 12000, "interest": 585, "maturity": 12585 },
+          { "monthly": 2000, "total": 24000, "interest": 1170, "maturity": 25170 },
+          { "monthly": 5000, "total": 60000, "interest": 2925, "maturity": 62925 },
+          { "monthly": 10000, "total": 120000, "interest": 5850, "maturity": 125850 }
+        ]
+      },
+      {
+        "months": 24,
+        "rate": "10%",
+        "rows": [
+          { "monthly": 500, "total": 12000, "interest": 1283, "maturity": 13283 },
+          { "monthly": 1000, "total": 24000, "interest": 2565, "maturity": 26565 },
+          { "monthly": 2000, "total": 48000, "interest": 5130, "maturity": 53130 },
+          { "monthly": 5000, "total": 120000, "interest": 12825, "maturity": 132825 },
+          { "monthly": 10000, "total": 240000, "interest": 25650, "maturity": 265650 }
+        ]
+      },
+      {
+        "months": 36,
+        "rate": "11%",
+        "rows": [
+          { "monthly": 500, "total": 18000, "interest": 3247, "maturity": 21247 },
+          { "monthly": 1000, "total": 36000, "interest": 6494, "maturity": 42494 },
+          { "monthly": 2000, "total": 72000, "interest": 12990, "maturity": 84990 },
+          { "monthly": 5000, "total": 180000, "interest": 32474, "maturity": 212474 },
+          { "monthly": 10000, "total": 360000, "interest": 64948, "maturity": 424948 }
+        ]
+      },
+      {
+        "months": 60,
+        "rate": "12%",
+        "rows": [
+          { "monthly": 500, "total": 30000, "interest": 10595, "maturity": 40595 },
+          { "monthly": 1000, "total": 60000, "interest": 21189, "maturity": 81189 },
+          { "monthly": 2000, "total": 120000, "interest": 42379, "maturity": 162379 },
+          { "monthly": 5000, "total": 300000, "interest": 105947, "maturity": 405947 },
+          { "monthly": 10000, "total": 600000, "interest": 211894, "maturity": 811894 }
+        ]
+      }
+    ],
+    "disclaimer": "No interest on RD pre-maturity (per card).",
+    "lakhpatiPlans": [
+      { "monthly": 1250, "months": 60, "maturity": 101487 },
+      { "monthly": 1750, "months": 48, "maturity": 106890 },
+      { "monthly": 2500, "months": 36, "maturity": 106237 },
+      { "monthly": 3800, "months": 24, "maturity": 100947 }
+    ]
+  }
+}
+
+

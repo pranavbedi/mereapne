@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Head Office",
+    "address": "A-21 Gali No. 3, Guru Nanak Pura, Laxmi Nagar",
+    "city": "Delhi",
+    "pin": "110092",
+    "phone": ["+91-7844884646"],
+    "hours": "Mon–Sat 10:00–18:00",
+    "mapUrl": "https://maps.app.goo.gl/wX7iBaM3oeWjr75p6"
+  }
+]

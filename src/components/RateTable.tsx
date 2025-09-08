@@ -127,42 +127,6 @@ export function RateTable({ type }: RateTableProps) {
           ))}
         </Tabs>
 
-        {/* Lakhpati Plans */}
-        <div className="rounded-lg border">
-          <div className="bg-accent/10 px-4 py-3 border-b">
-            <h3 className="font-semibold text-lg text-accent">
-              Become a Lakhpati - Special RD Plans
-            </h3>
-          </div>
-          
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead>
-                <tr className="border-b bg-gray-50">
-                  <th className="text-left py-3 px-4 font-medium">Monthly Deposit</th>
-                  <th className="text-left py-3 px-4 font-medium">Tenure</th>
-                  <th className="text-left py-3 px-4 font-medium">Maturity Amount</th>
-                </tr>
-              </thead>
-              <tbody>
-                {ratesData.rd.lakhpatiPlans.map((plan, idx) => (
-                  <tr key={idx} className="border-b hover:bg-gray-50">
-                    <td className="py-3 px-4 font-medium">
-                      {formatCurrency(plan.monthly)}
-                    </td>
-                    <td className="py-3 px-4">
-                      {plan.months} months
-                    </td>
-                    <td className="py-3 px-4 font-semibold text-accent">
-                      {formatCurrency(plan.maturity)}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-        
         <div className="p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
           <p className="text-sm text-yellow-800">
             <strong>Note:</strong> {ratesData.rd.disclaimer}

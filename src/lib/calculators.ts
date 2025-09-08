@@ -108,11 +108,12 @@ export function calculateRD(monthlyAmount: number, tenureMonths: number): RDCalc
   }
   
   // Fallback calculation
-  let interpolatedRate = 0.09;
-  if (tenureMonths <= 12) interpolatedRate = 0.09;
-  else if (tenureMonths <= 24) interpolatedRate = 0.10;
-  else if (tenureMonths <= 36) interpolatedRate = 0.11;
-  else interpolatedRate = 0.12;
+  let interpolatedRate = 0.072;
+  if (tenureMonths <= 12) interpolatedRate = 0.072;
+  else if (tenureMonths <= 24) interpolatedRate = 0.078;
+  else if (tenureMonths <= 36) interpolatedRate = 0.084;
+  else if (tenureMonths === 365) interpolatedRate = 0.06;
+  else interpolatedRate = 0.072;
   
   const totalDeposit = monthlyAmount * tenureMonths;
   const monthlyRate = interpolatedRate / 12;

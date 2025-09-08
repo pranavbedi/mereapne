@@ -36,20 +36,14 @@ export default function RecurringDepositPage() {
   ];
 
   const benefits = [
-    'Minimum monthly deposit of just ₹100',
+    'Minimum monthly deposit of just ₹50',
     'No upper limit on monthly contribution',
-    'Compound interest calculated monthly',
+    'Interest calculated on yearly basis',
     'Flexible tenure options available',
     'Nomination facility included',
     'Loan facility against RD balance',
   ];
 
-  const lakhpatiHighlights = [
-    'Become a lakhpati with systematic savings',
-    'Multiple plans to choose from',
-    'Guaranteed returns at maturity',
-    'Perfect for long-term wealth building',
-  ];
 
   return (
     <div className="space-y-16 py-8">
@@ -174,63 +168,21 @@ export default function RecurringDepositPage() {
         </div>
       </section>
 
-      {/* Lakhpati Plans */}
-      <section className="bg-accent/5 py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Become a Lakhpati with RD
-            </h2>
-            <p className="text-xl text-gray-600">
-              Special RD plans designed to help you reach the ₹1 lakh milestone through systematic savings.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="space-y-6">
-              {lakhpatiHighlights.map((highlight, index) => (
-                <div key={index} className="flex items-start space-x-3">
-                  <Target className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                  <span className="text-gray-700 text-lg">{highlight}</span>
-                </div>
-              ))}
-            </div>
-
-            <div className="bg-white rounded-lg shadow-sm border p-6">
-              <h3 className="font-semibold text-gray-900 mb-4 text-center">Sample Lakhpati Plan</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center py-2 border-b">
-                  <span className="text-gray-600">Monthly Deposit:</span>
-                  <span className="font-semibold">₹1,250</span>
-                </div>
-                <div className="flex justify-between items-center py-2 border-b">
-                  <span className="text-gray-600">Tenure:</span>
-                  <span className="font-semibold">60 months</span>
-                </div>
-                <div className="flex justify-between items-center py-2 border-b">
-                  <span className="text-gray-600">Total Deposit:</span>
-                  <span className="font-semibold">₹75,000</span>
-                </div>
-                <div className="flex justify-between items-center py-2 text-lg">
-                  <span className="text-gray-900 font-semibold">Maturity Amount:</span>
-                  <span className="font-bold text-accent">₹1,01,487</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Important Notes */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-          <h3 className="font-semibold text-yellow-800 mb-3">Important Information</h3>
+          <h3 className="font-semibold text-yellow-800 mb-3">Terms & Conditions</h3>
           <div className="space-y-2 text-sm text-yellow-700">
-            <p>• <strong>Premature Closure:</strong> No interest on RD pre-maturity (as per card).</p>
-            <p>• <strong>Default Penalty:</strong> Penalty may apply for missed monthly deposits.</p>
-            <p>• <strong>Members Only:</strong> RD facility available exclusively to society members.</p>
-            <p>• <strong>Rate Changes:</strong> Interest rates are subject to change with prior notice.</p>
-            <p>• <strong>Minimum Amount:</strong> Monthly deposit starts from ₹100 with no upper limit.</p>
+            <p>• <strong>Membership Required:</strong> It is mandatory to be a member in the Company.</p>
+            <p>• <strong>Share Issue:</strong> Company will issue shares worth ₹100/- to member for RD Plan.</p>
+            <p>• <strong>Interest Calculation:</strong> Interest will be calculated on yearly basis.</p>
+            <p>• <strong>Minimum Amount:</strong> Recurring deposit minimum amount ₹50/-, thereafter in multiple of ₹50/-.</p>
+            <p>• <strong>Irregular Deposits:</strong> Irregular deposits are not entitled for pre mature payment and loan facility against it.</p>
+            <p>• <strong>Penalty:</strong> After maturity date, payment on irregular accounts will be made after deducting the penalty amount maximum to the limit of interest earned on such account. No deduction will be made on the principal amount of such loan.</p>
+            <p>• <strong>Tenure:</strong> The tenure of account is 12 months and above.</p>
+            <p>• <strong>Payment Mode:</strong> All payments to the Company shall be made either in cash or by cheque draft against the receipt countersigned by its authorised signatory.</p>
+            <p>• <strong>Passbook:</strong> A passbook will be issued to every Member Account Holder.</p>
           </div>
         </div>
       </section>

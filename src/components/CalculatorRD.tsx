@@ -17,14 +17,14 @@ export function CalculatorRD() {
     { value: '12', label: '12 Months' },
     { value: '24', label: '24 Months' },
     { value: '36', label: '36 Months' },
-    { value: '60', label: '60 Months' },
+    { value: '365', label: '365 Days' },
   ];
 
   const handleCalculate = () => {
     const monthly = parseInt(monthlyAmount);
     const tenureMonths = parseInt(tenure);
 
-    if (monthly >= 100 && tenureMonths > 0) {
+    if (monthly >= 50 && tenureMonths > 0) {
       const calculation = calculateRD(monthly, tenureMonths);
       setResult(calculation);
     }
@@ -50,10 +50,10 @@ export function CalculatorRD() {
             <Input
               id="monthly"
               type="number"
-              placeholder="Minimum ₹100"
+              placeholder="Minimum ₹50"
               value={monthlyAmount}
               onChange={(e) => setMonthlyAmount(e.target.value)}
-              min="100"
+              min="50"
               step="100"
             />
           </div>

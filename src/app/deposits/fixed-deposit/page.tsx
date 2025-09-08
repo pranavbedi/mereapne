@@ -36,10 +36,10 @@ export default function FixedDepositPage() {
   ];
 
   const benefits = [
-    'Minimum deposit starts from ₹5,000',
-    'Interest credited at maturity',
-    'Auto-renewal option available',
-    'Loan facility against FD',
+    'Minimum deposit starts from ₹1,000',
+    'Interest calculated quarterly compounded',
+    'Company will issue shares worth ₹100/- to FD account holder',
+    'Loan available against deposit upto 75% of deposit amount after 1 year',
     'Nomination facility available',
     'Premature withdrawal with penalty',
   ];
@@ -167,49 +167,19 @@ export default function FixedDepositPage() {
         </div>
       </section>
 
-      {/* Special Offers */}
-      <section className="bg-accent/5 py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Special 74-Month FD Scheme
-          </h2>
-          <p className="text-xl text-gray-600 mb-8">
-            Double your money in 74 months! Our special FD scheme offers guaranteed doubling 
-            of your investment at 12% per annum.
-          </p>
-          <div className="bg-white rounded-lg border shadow-sm p-8 max-w-2xl mx-auto">
-            <div className="grid grid-cols-2 gap-6 text-center">
-              <div>
-                <div className="text-2xl font-bold text-primary">12%</div>
-                <div className="text-gray-600">Interest Rate p.a.</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-primary">74</div>
-                <div className="text-gray-600">Months Tenure</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-accent">₹1,00,000</div>
-                <div className="text-gray-600">Deposit Amount</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-accent">₹2,00,000</div>
-                <div className="text-gray-600">Maturity Amount</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Important Notes */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-          <h3 className="font-semibold text-yellow-800 mb-3">Important Information</h3>
+          <h3 className="font-semibold text-yellow-800 mb-3">Terms & Conditions</h3>
           <div className="space-y-2 text-sm text-yellow-700">
-            <p>• <strong>Premature Withdrawal:</strong> Premature FD interest payable as per slab at time of closure.</p>
-            <p>• <strong>Members Only:</strong> FD facility available exclusively to society members.</p>
-            <p>• <strong>Rate Changes:</strong> Interest rates are subject to change with prior notice.</p>
-            <p>• <strong>Auto Renewal:</strong> FD can be set for auto-renewal on maturity.</p>
-            <p>• <strong>Loan Facility:</strong> Up to 90% loan available against FD deposit.</p>
+            <p>• <strong>Membership Required:</strong> It is mandatory to be a member in the Company.</p>
+            <p>• <strong>Share Issue:</strong> Company will issue shares worth ₹100/- to FD account holder.</p>
+            <p>• <strong>Minimum Deposit:</strong> Minimum FD would be of ₹1,000.</p>
+            <p>• <strong>Interest Calculation:</strong> Interest calculated quarterly compounded.</p>
+            <p>• <strong>TDS:</strong> Applicable TDS to be deducted on Interest as per the provisions of Income Tax Act.</p>
+            <p>• <strong>Loan Facility:</strong> Loan available against deposit upto 75% of deposit amount after 1 year from the date of deposit.</p>
+            <p>• <strong>Death Benefit:</strong> In case of death of a depositor, the Company will repay to nominee or beneficiary the principal & interest, at which it was accepted.</p>
           </div>
         </div>
       </section>

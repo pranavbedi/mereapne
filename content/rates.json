@@ -3,58 +3,57 @@
     "tenures": [
       {
         "months": 12,
-        "rate": "9%",
+        "rate": "8.2%",
         "rows": [
-          { "amount": 5000, "maturity": 5450 },
-          { "amount": 10000, "maturity": 10900 },
-          { "amount": 20000, "maturity": 21800 },
-          { "amount": 50000, "maturity": 54500 },
-          { "amount": 100000, "maturity": 109000 }
+          { "amount": 1000, "maturity": 1085 },
+          { "amount": 5000, "maturity": 5423 },
+          { "amount": 10000, "maturity": 10846 },
+          { "amount": 50000, "maturity": 54228 },
+          { "amount": 100000, "maturity": 108456 }
         ]
       },
       {
         "months": 24,
-        "rate": "10%",
+        "rate": "8.7%",
         "rows": [
-          { "amount": 5000, "maturity": 6050 },
-          { "amount": 10000, "maturity": 12100 },
-          { "amount": 20000, "maturity": 24200 },
-          { "amount": 50000, "maturity": 60500 },
-          { "amount": 100000, "maturity": 121000 }
+          { "amount": 1000, "maturity": 1188 },
+          { "amount": 5000, "maturity": 5939 },
+          { "amount": 10000, "maturity": 11878 },
+          { "amount": 50000, "maturity": 59392 },
+          { "amount": 100000, "maturity": 118784 }
         ]
       },
       {
         "months": 36,
-        "rate": "11%",
+        "rate": "9.7%",
         "rows": [
-          { "amount": 5000, "maturity": 6838 },
-          { "amount": 10000, "maturity": 13676 },
-          { "amount": 20000, "maturity": 27353 },
-          { "amount": 50000, "maturity": 68382 },
-          { "amount": 100000, "maturity": 136763 }
+          { "amount": 1000, "maturity": 1270 },
+          { "amount": 5000, "maturity": 6349 },
+          { "amount": 10000, "maturity": 12697 },
+          { "amount": 50000, "maturity": 63487 },
+          { "amount": 100000, "maturity": 126973 }
         ]
       },
       {
         "months": 48,
-        "rate": "12%",
+        "rate": "10.2%",
         "rows": [
-          { "amount": 5000, "maturity": 7868 },
-          { "amount": 10000, "maturity": 15735 },
-          { "amount": 20000, "maturity": 31470 },
-          { "amount": 50000, "maturity": 78676 },
-          { "amount": 100000, "maturity": 157352 }
+          { "amount": 1000, "maturity": 1496 },
+          { "amount": 5000, "maturity": 7481 },
+          { "amount": 10000, "maturity": 14961 },
+          { "amount": 50000, "maturity": 74807 },
+          { "amount": 100000, "maturity": 149613 }
         ]
       },
       {
-        "months": 74,
+        "months": 60,
         "rate": "12%",
-        "note": "Double at maturity (per card)",
         "rows": [
-          { "amount": 5000, "maturity": 10000 },
-          { "amount": 10000, "maturity": 20000 },
-          { "amount": 20000, "maturity": 40000 },
-          { "amount": 50000, "maturity": 100000 },
-          { "amount": 100000, "maturity": 200000 }
+          { "amount": 1000, "maturity": 1806 },
+          { "amount": 5000, "maturity": 9031 },
+          { "amount": 10000, "maturity": 18061 },
+          { "amount": 50000, "maturity": 90306 },
+          { "amount": 100000, "maturity": 180611 }
         ]
       }
     ],
@@ -64,56 +63,56 @@
     "schemes": [
       {
         "months": 12,
-        "rate": "9%",
+        "rate": "7.2%",
         "rows": [
-          { "monthly": 500, "total": 6000, "interest": 293, "maturity": 6293 },
-          { "monthly": 1000, "total": 12000, "interest": 585, "maturity": 12585 },
-          { "monthly": 2000, "total": 24000, "interest": 1170, "maturity": 25170 },
-          { "monthly": 5000, "total": 60000, "interest": 2925, "maturity": 62925 },
-          { "monthly": 10000, "total": 120000, "interest": 5850, "maturity": 125850 }
+          { "monthly": 1000, "total": 12000, "interest": 476, "maturity": 12476 },
+          { "monthly": 2000, "total": 24000, "interest": 952, "maturity": 24952 },
+          { "monthly": 3000, "total": 36000, "interest": 1428, "maturity": 37428 },
+          { "monthly": 4000, "total": 48000, "interest": 1904, "maturity": 49904 },
+          { "monthly": 5000, "total": 60000, "interest": 2380, "maturity": 62380 },
+          { "monthly": 6000, "total": 72000, "interest": 2856, "maturity": 74856 }
         ]
       },
       {
         "months": 24,
-        "rate": "10%",
+        "rate": "7.8%",
         "rows": [
-          { "monthly": 500, "total": 12000, "interest": 1283, "maturity": 13283 },
-          { "monthly": 1000, "total": 24000, "interest": 2565, "maturity": 26565 },
-          { "monthly": 2000, "total": 48000, "interest": 5130, "maturity": 53130 },
-          { "monthly": 5000, "total": 120000, "interest": 12825, "maturity": 132825 },
-          { "monthly": 10000, "total": 240000, "interest": 25650, "maturity": 265650 }
+          { "monthly": 1000, "total": 24000, "interest": 2038, "maturity": 26038 },
+          { "monthly": 2000, "total": 48000, "interest": 4076, "maturity": 52076 },
+          { "monthly": 3000, "total": 72000, "interest": 6114, "maturity": 78114 },
+          { "monthly": 4000, "total": 96000, "interest": 8152, "maturity": 104152 },
+          { "monthly": 5000, "total": 120000, "interest": 10190, "maturity": 130190 },
+          { "monthly": 6000, "total": 144000, "interest": 12228, "maturity": 156228 }
         ]
       },
       {
         "months": 36,
-        "rate": "11%",
+        "rate": "8.4%",
         "rows": [
-          { "monthly": 500, "total": 18000, "interest": 3247, "maturity": 21247 },
-          { "monthly": 1000, "total": 36000, "interest": 6494, "maturity": 42494 },
-          { "monthly": 2000, "total": 72000, "interest": 12990, "maturity": 84990 },
-          { "monthly": 5000, "total": 180000, "interest": 32474, "maturity": 212474 },
-          { "monthly": 10000, "total": 360000, "interest": 64948, "maturity": 424948 }
+          { "monthly": 1000, "total": 36000, "interest": 5030, "maturity": 41030 },
+          { "monthly": 2000, "total": 72000, "interest": 10060, "maturity": 82060 },
+          { "monthly": 3000, "total": 108000, "interest": 15090, "maturity": 123090 },
+          { "monthly": 4000, "total": 144000, "interest": 20120, "maturity": 164120 },
+          { "monthly": 5000, "total": 180000, "interest": 25150, "maturity": 205150 },
+          { "monthly": 6000, "total": 216000, "interest": 30180, "maturity": 246180 }
         ]
       },
       {
-        "months": 60,
-        "rate": "12%",
+        "months": 365,
+        "rate": "6%",
+        "note": "365 Days",
         "rows": [
-          { "monthly": 500, "total": 30000, "interest": 10595, "maturity": 40595 },
-          { "monthly": 1000, "total": 60000, "interest": 21189, "maturity": 81189 },
-          { "monthly": 2000, "total": 120000, "interest": 42379, "maturity": 162379 },
-          { "monthly": 5000, "total": 300000, "interest": 105947, "maturity": 405947 },
-          { "monthly": 10000, "total": 600000, "interest": 211894, "maturity": 811894 }
+          { "monthly": 50, "total": 18250, "interest": 556, "maturity": 18806 },
+          { "monthly": 100, "total": 36500, "interest": 1113, "maturity": 37613 },
+          { "monthly": 150, "total": 54750, "interest": 1668, "maturity": 56418 },
+          { "monthly": 200, "total": 73000, "interest": 2224, "maturity": 75224 },
+          { "monthly": 250, "total": 91250, "interest": 2780, "maturity": 94030 },
+          { "monthly": 300, "total": 109500, "interest": 3336, "maturity": 112836 }
         ]
       }
     ],
     "disclaimer": "No interest on RD pre-maturity (per card).",
-    "lakhpatiPlans": [
-      { "monthly": 1250, "months": 60, "maturity": 101487 },
-      { "monthly": 1750, "months": 48, "maturity": 106890 },
-      { "monthly": 2500, "months": 36, "maturity": 106237 },
-      { "monthly": 3800, "months": 24, "maturity": 100947 }
-    ]
+    "lakhpatiPlans": []
   }
 }
 

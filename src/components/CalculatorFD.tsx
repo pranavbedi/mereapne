@@ -18,7 +18,7 @@ export function CalculatorFD() {
     { value: '24', label: '24 Months' },
     { value: '36', label: '36 Months' },
     { value: '48', label: '48 Months' },
-    { value: '74', label: '74 Months (Double Money)' },
+    { value: '60', label: '60 Months' },
   ];
 
   const handleCalculate = () => {

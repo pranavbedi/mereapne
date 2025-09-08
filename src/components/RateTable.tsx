@@ -28,11 +28,6 @@ export function RateTable({ type }: RateTableProps) {
                 <div className="bg-gray-50 px-4 py-3 border-b">
                   <h3 className="font-semibold text-lg">
                     {tenure.months} Months at {tenure.rate} p.a.
-                    {tenure.note && (
-                      <span className="text-sm font-normal text-gray-600 ml-2">
-                        ({tenure.note})
-                      </span>
-                    )}
                   </h3>
                 </div>
                 

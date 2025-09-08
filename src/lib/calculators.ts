@@ -50,11 +50,12 @@ export function calculateFD(principal: number, tenureMonths: number): FDCalculat
   
   // Fallback calculation for non-standard tenures
   // Use simple interest with interpolated rate
-  let interpolatedRate = 0.09; // Default 9%
+  let interpolatedRate = 0.082; // Default 8.2%
   
-  if (tenureMonths <= 12) interpolatedRate = 0.09;
-  else if (tenureMonths <= 24) interpolatedRate = 0.10;
-  else if (tenureMonths <= 36) interpolatedRate = 0.11;
+  if (tenureMonths <= 12) interpolatedRate = 0.082;
+  else if (tenureMonths <= 24) interpolatedRate = 0.087;
+  else if (tenureMonths <= 36) interpolatedRate = 0.097;
+  else if (tenureMonths <= 48) interpolatedRate = 0.102;
   else interpolatedRate = 0.12;
   
   const years = tenureMonths / 12;

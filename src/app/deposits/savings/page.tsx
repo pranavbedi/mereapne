@@ -56,7 +56,7 @@ export default function SavingsAccountPage() {
   ];
 
   return (
-    <div className="space-y-16 py-8">
+    <div className="space-y-12 pb-4">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-accent/5 to-primary/5 py-16 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="space-y-16 py-8">
+    <div className="space-y-12 pb-4">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary/5 to-accent/5 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

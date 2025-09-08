@@ -14,17 +14,13 @@ export function Footer() {
   ];
 
   const loansLinks = [
-    { name: 'Regular Loan', href: '/loans/regular' },
-    { name: 'Emergency Loan', href: '/loans/emergency' },
-    { name: 'Medical Loan', href: '/loans/medical' },
-    { name: 'Household Loan', href: '/loans/household' },
+    { name: 'Deposit Loan', href: '/loans/deposit' },
+    { name: 'Gold Loan', href: '/loans/gold' },
+    { name: 'Property Loan', href: '/loans/property' },
   ];
 
   const legalLinks = [
     { name: 'Privacy Policy', href: '/privacy' },
-    { name: 'Terms & Conditions', href: '/terms' },
-    { name: 'Refund Policy', href: '/refund-policy' },
-    { name: 'Downloads', href: '/downloads' },
   ];
 
   return (

@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="space-y-2 trust-indicator">
               <Clock className="w-12 h-12 text-primary mx-auto" />
-              <div className="text-2xl font-bold text-gray-900">10+</div>
+              <div className="text-2xl font-bold text-gray-900">4+</div>
               <div className="text-sm text-gray-600">Years of Service</div>
             </div>
             <div className="space-y-2 trust-indicator">
